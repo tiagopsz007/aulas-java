@@ -1,0 +1,40 @@
+	<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+	https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>br.edu.loja</groupId>
+	<artifactId>loja-orm</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+	<name>Loja ORM</name>
+	<description>Aula de persistência Java com
+	Hibernate e H2</description>
+	
+	<!-- Configuração do Java -->
+	<properties>
+	<maven.compiler.release>17</maven.compiler.release>
+	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	
+	<!-- Dependências -->
+	<dependencies>
+	
+	<!-- Hibernate ORM -->
+	<dependency>
+	<groupId>org.hibernate.orm</groupId>
+	<artifactId>hibernate-core</artifactId>
+	<version>6.6.3.Final</version>
+	</dependency>
+	
+	<!-- Banco de dados H2 -->
+	<dependency>
+	<groupId>com.h2database</groupId>
+	<artifactId>h2</artifactId>
+	<version>2.3.232</version>
+	<scope>runtime</scope>
+	</dependency>
+	</dependencies>
+	
+	</project>
